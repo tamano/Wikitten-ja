@@ -30,3 +30,8 @@ Check out the **[project website](http://wikitten.vizuina.com)** for more detail
 * [Marijn Haverbeke](http://marijnhaverbeke.nl/), for [CodeMirror](http://codemirror.net/), a JavaScript code editor.
 * Twitter, for the [Bootstrap](http://twitter.github.com/bootstrap/) CSS framework.
 * All Vectors, for the [free cat vector](http://www.allvectors.com/cats-vector/) silhouette I used in making the logo.
+
+## What I've modified
+What I have added/deleted from the [original](https://github.com/nicosomb/Wikitten) repo.
+
+- Theme is now responsive and be better looked at smartphones.
