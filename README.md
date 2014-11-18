@@ -35,3 +35,4 @@ Check out the **[project website](http://wikitten.vizuina.com)** for more detail
 What I have added/deleted from the [original](https://github.com/nicosomb/Wikitten) repo.
 
 - Theme is now responsive and be better looked at smartphones.
+- Basic Auth.
