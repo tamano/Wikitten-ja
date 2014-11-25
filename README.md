@@ -1,10 +1,12 @@
 # Wikitten-ja
 
 Wikitten-ja is a Japanese localization version of [Wikitten](https://github.com/victorstanciu/Wikitten).
+
 This repository is a fork of https://github.com/nicosomb/Wikitten .
 
 
 Wikitten-jaは、[Wikitten](https://github.com/victorstanciu/Wikitten)にいくつかの機能を追加して、日本語化したものです。
+
 このリポジトリは、https://github.com/nicosomb/Wikitten からforkされたものです。
 
 
@@ -26,10 +28,12 @@ Wikitten-jaは、[Wikitten](https://github.com/victorstanciu/Wikitten)にいく�
 ## 謝辞 (Special thanks)
 
 Please see the original [Wikitten](https://github.com/victorstanciu/Wikitten) page for the contributors of Wikitten.
+
 This repository is a fork of https://github.com/nicosomb/Wikitten .
 
 
 Wikittenの作者については、[Wikitten](https://github.com/victorstanciu/Wikitten)を参照してください。
+
 このリポジトリは、https://github.com/nicosomb/Wikitten からforkされたものです。
 
 
