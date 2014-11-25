@@ -17,7 +17,7 @@ Wikitten-jaは、[Wikitten](https://github.com/victorstanciu/Wikitten)にいく�
 
 ## インストール
 
-1. 最新のファイルを[ダウンロード](https://github.com/tamano/Wikitten/archive/master.zip)するか、 [GitHubリポジトリ](https://github.com/tamano/Wikitten)をcloneしてください。
+1. 最新のファイルを[ダウンロード](https://github.com/tamano/Wikitten-ja/archive/master.zip)するか、 [GitHubリポジトリ](https://github.com/tamano/Wikitten-ja)をcloneしてください。
 2. ファイルを解凍して、ApacheのDocumentRoot配下に設置、もしくは[VirtualHost](http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost)を定義してください。
 3. 以上です。 解凍したディレクトリの中にある`library`ディレクトリの中のファイルが、Wikiで表示されるファイルとなります。もし、`library`ディレクトリの中に`index.md`というファイルがあった場合、それがデフォルトで表示されるファイルとなります。
 
