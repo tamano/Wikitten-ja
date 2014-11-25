@@ -107,7 +107,7 @@ class Wiki
                 'page'      => $page_data,
                 'html'      =>
                       "<h3><span class=\"directory-path\">$rest_parts/</span> $dir_name</h3>"
-                    . "<p>左側のメニューより表示したいファイルを選択したください。</p>"
+                    . "<p>左側のメニューより表示したいファイルを選択してください。</p>"
                 ,
                 'is_dir'    => true
             ));
