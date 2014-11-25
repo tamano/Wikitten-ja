@@ -62,11 +62,11 @@ class Wiki
                     'parts'     => $parts,
                     'page'      => $page_data,
                     'html'      =>
-                          "<h3>Page '$_page' not found</h3>"
+                          "<h3>'$_page' は見つかりませんでした。</h3>"
                         . "<br/>"
                         . "<form method='GET'>"
                         . "<input type='hidden' name='a' value='create'>"
-                        . "<input type='submit' class='btn btn-primary' value='Create this page' />"
+                        . "<input type='submit' class='btn btn-primary' value='新規作成' />"
                         . "</form>"
                     ,
                     'is_dir'    => false
@@ -107,7 +107,7 @@ class Wiki
                 'page'      => $page_data,
                 'html'      =>
                       "<h3><span class=\"directory-path\">$rest_parts/</span> $dir_name</h3>"
-                    . "<p>Use the tree menu on the left to select a file</p>"
+                    . "<p>左側のメニューより表示したいファイルを選択したください。</p>"
                 ,
                 'is_dir'    => true
             ));

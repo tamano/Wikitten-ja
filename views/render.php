@@ -1,10 +1,10 @@
 <div class="breadcrumbs">    
     <div class="pull-right">
         <?php if ($html && isset($source)): ?>
-            <a href="javascript:;" class="btn btn-mini btn-inverse" id="toggle">Toggle source</a>
+            <a href="javascript:;" class="btn btn-mini btn-inverse" id="toggle">ソースに切替え</a>
         <?php endif ?>
         <?php if ($use_pastebin): ?>
-            <a href="javascript:;" class="btn btn-mini btn-inverse" id="create-pastebin" title="Create public Paste on PasteBin">Create public Paste</a>
+            <a href="javascript:;" class="btn btn-mini btn-inverse" id="create-pastebin" title="Create public Paste on PasteBin">PasteBinへ投稿</a>
         <?php endif; ?>
     </div>    
 
@@ -58,7 +58,7 @@
     <div id="source">
         <?php if (ENABLE_EDITING): ?>
             <div class="alert alert-info">
-                <i class="icon-pencil"></i> <strong>Editing is enabled</strong>. Use the "Save changes" button below the editor to commit modifications to this file.
+                <i class="icon-pencil"></i> <strong>編集可能:</strong> 編集が終わったら、画面下部の「保存」ボタンをクリックしてください。
             </div>
         <?php endif ?>
 
@@ -68,7 +68,7 @@
 
             <?php if (ENABLE_EDITING): ?>
                 <div class="form-actions">
-                    <input type="submit" class="btn btn-inverse" value="Save Changes">
+                    <input type="submit" class="btn btn-inverse" value="保存">
                 </div>
             <?php endif ?>
         </form>
