@@ -1,38 +1,42 @@
-# Wikitten
+# Wikitten-ja
 
-Wikitten is a small, fast, PHP wiki, and the perfect place to store your notes, code snippets, ideas, etc.
+Wikitten-ja is a Japanese localization version of [Wikitten](https://github.com/victorstanciu/Wikitten).
+This repository is a fork of https://github.com/nicosomb/Wikitten .
 
-**This repository is a fork of Wikitten.**
 
-Check out the **[project website](http://wikitten.vizuina.com)** for more details and features.
+Wikitten-jaは、[Wikitten](https://github.com/victorstanciu/Wikitten)にいくつかの機能を追加して、日本語化したものです。
+このリポジトリは、https://github.com/nicosomb/Wikitten からforkされたものです。
 
-[![Wikitten](http://wikitten.vizuina.com/screenshot.png)](http://wikitten.vizuina.com)
 
-## Requirements
+## 動作環境
 
 * PHP `5.3+`
 * The Apache webserver (with `mod_rewrite`)
 
-## Installation
+## インストール
 
-* [Download](https://github.com/nicosomb/Wikitten/archive/master.zip) the latest version or clone the [repository on GitHub](https://github.com/nicosomb/Wikitten)
-* After extracting the archive, drop the files somewhere in your DocumentRoot, or make a separate Apache [VirtualHost](http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost) (this is the way I currently use it myself)
-* That's it. There's a `library` directory in the installation folder. Everything you place in there will be rendered by the wiki. If there's an `index.md` file (such as the one you are reading now) in that folder, it will be served by default when accessing the wiki.
+1. 最新のファイルを[ダウンロード](https://github.com/tamano/Wikitten/archive/master.zip)するか、 [GitHubリポジトリ](https://github.com/tamano/Wikitten)をcloneしてください。
+2. ファイルを解凍して、ApacheのDocumentRoot配下に設置、もしくは[VirtualHost](http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost)を定義してください。
+3. 以上です。 解凍したディレクトリの中にある`library`ディレクトリの中のファイルが、Wikiで表示されるファイルとなります。もし、`library`ディレクトリの中に`index.md`というファイルがあった場合、それがデフォルトで表示されるファイルとなります。
 
-  You don't have to use the `library` directory if you don't want to, you can configure Wikitten using
-  the `config.php` file. Simply copy the `config.php.example` file found in the site root to `config.php`,
-  and change the values of the constants defined inside.
+  もし`library`ディレクトリ以外の場所にファイルを置きたい場合、設定ファイルを作成する事で変更が可能です。
+  インストールしたディレクトリの中に`config.php.example`というファイルがありますので、それを`config.php`にリネームして、
+  その中で設定値を修正してください。
 
-## Special thanks go to:
+## 謝辞 (Special thanks)
 
-* [Victor Stanciu](http://victorstanciu.ro/), the main developer of Wikitten
-* [Michel Fortin](http://michelf.ca/home/), for the [PHP Markdown parser](http://michelf.ca/projects/php-markdown/).
-* [Marijn Haverbeke](http://marijnhaverbeke.nl/), for [CodeMirror](http://codemirror.net/), a JavaScript code editor.
-* Twitter, for the [Bootstrap](http://twitter.github.com/bootstrap/) CSS framework.
-* All Vectors, for the [free cat vector](http://www.allvectors.com/cats-vector/) silhouette I used in making the logo.
+Please see the original [Wikitten](https://github.com/victorstanciu/Wikitten) page for the contributors of Wikitten.
+This repository is a fork of https://github.com/nicosomb/Wikitten .
 
-## What I've modified
-What I have added/deleted from the [original](https://github.com/nicosomb/Wikitten) repo.
 
-- Theme is now responsive and be better looked at smartphones.
-- Basic Auth.
+Wikittenの作者については、[Wikitten](https://github.com/victorstanciu/Wikitten)を参照してください。
+このリポジトリは、https://github.com/nicosomb/Wikitten からforkされたものです。
+
+
+## 主な変更点 (What I've modified)
+What I have added/deleted from the [base](https://github.com/nicosomb/Wikitten) repo.
+
+- Japanese localization. 
+- Add responsive feature to theme for better looks at smartphones.
+- ~~Add Basic Auth feature.~~ (now merged to the base repo)
+- ~~Add USE_WIKITTEN_LOGO flag.~~ (now merged to the base repo)
