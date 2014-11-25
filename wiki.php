@@ -129,6 +129,13 @@ class Wiki
 
         $source    = file_get_contents($path);
         $extension = pathinfo($path, PATHINFO_EXTENSION);
+
+        if (MAKE_MARKDOWN_DEFAULT) {
+            if ($extension == "") {
+                $extension = "md";
+            }
+        }
+
         $renderer  = $this->_getRenderer($extension);
         $page_data = $this->_default_page_data;
 
