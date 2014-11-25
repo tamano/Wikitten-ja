@@ -14,6 +14,9 @@ define('APP_NAME', 'My Wiki');
 // Enable create file if not exists
 // define('ENABLE_CREATING', true);
 
+// Enable regarding file without extension as markdown?
+// define('MAKE_MARKDOWN_DEFAULT', true);
+
 // Enable JSON page data?
 // define('USE_PAGE_METADATA', true);
 
