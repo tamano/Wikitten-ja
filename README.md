@@ -45,6 +45,6 @@ What I have added/deleted from the [base](https://github.com/nicosomb/Wikitten) 
 
 - Japanese localization. 
 - Add responsive feature to theme for better looks at smartphones.
-- Add MAKE_MARKDOWN_DEFAULT flag that make page name without extension(like `.md`) to render in markdown style.
+- ~~Add MAKE_MARKDOWN_DEFAULT flag that make page name without extension(like .md) to render in markdown style.~~ (now merged to the base repo)
 - ~~Add Basic Auth feature.~~ (now merged to the base repo)
 - ~~Add USE_WIKITTEN_LOGO flag.~~ (now merged to the base repo)
